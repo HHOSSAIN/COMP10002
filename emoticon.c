@@ -1,8 +1,6 @@
 /* Emoticon message cleanser:
  *
- * Skeleton code written by Farhana Choudhury and Jianzhong Qi, April 2020
- *
- * Further completed by student name:HASNE HOSSAIN, ID:1102602 *
+ * Further completed by student name:HASNE HOSSAIN *
  */
 
 #include <stdio.h>
@@ -50,7 +48,7 @@ char *my_strcat(char *dest, char *src) ;
 int row_count(msg_t filter[]);
 /****************************************************************/
 
-/* main function controls all the action, do NOT modify this function */
+/* main function controls all the action */
 int
 main(int argc, char *argv[]) {
 	/* to hold all input messages */
@@ -104,7 +102,6 @@ print_stage_header(int stage_num) {
 }
 
 /****************************************************************/
-/* add your code below */
 
 /* scan a message and count the number of tokens (separated by commas) in it */
 int count_tokens(msg_t one_msg) { 

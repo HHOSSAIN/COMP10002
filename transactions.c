@@ -1,7 +1,7 @@
 /* Processing credit card and transaction records and identifying
  * fraudulent transactions.
  * 
- * Coded by student name:HASNE HOSSAIN, ID:1102602 *
+ * Coded by student name:HASNE HOSSAIN *
  */
 #include <stdio.h>
 #include <string.h>
